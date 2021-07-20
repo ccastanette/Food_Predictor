@@ -22,8 +22,8 @@ Each user will have a login and only have access to their data but the admin wil
 
 ## Technologies Used
 
--Python
--Flask
--HTML
--CSS
--MySQL
+- Python
+- Flask
+- HTML
+- CSS
+- MySQL

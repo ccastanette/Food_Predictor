@@ -93,7 +93,15 @@ CREATE TABLE [Period] (
 --DROP TABLE [ActivityLevel]
 
 CREATE TABLE [ActivityLevel] (
-	[AcitivtyID] int IDENTITY(1,1) PRIMARY KEY,
+	[ActivityID] int IDENTITY(1,1) PRIMARY KEY,
 	[ActivityType] varchar(100),
 	[Description] varchar(1000)  NOT NULL 
+)
+
+--DROP TABLE [mood] 
+
+CREATE TABLE[mood] (
+	[moodid] int IDENTITY(1,1) PRIMARY KEY,
+	[moodtype] varchar(100),
+	[moodlevel] int
 )

@@ -53,6 +53,8 @@ CREATE TABLE [DiaryEntry] (
     [PartID] int NULL ,
     [PainLevel] int NULL ,
     [PainID] int NULL ,
+	[moodtype] varchar(100),
+	[moodlevel] int
     [Height] int NULL ,
     [Weight] int NULL ,
 	[PerStartDate] varchar(2),
